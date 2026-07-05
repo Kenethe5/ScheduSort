@@ -357,7 +357,7 @@ export default function Home() {
                 </div>
 
                 <button
-                  className="text-sm text-gray-600 hover:text-black"
+                  className="delete-text"
                   onClick={() => deleteBusyBlock(b.id)}>
                   Delete
                 </button>
@@ -424,7 +424,7 @@ export default function Home() {
                 </div>
 
                 <button
-                  className="text-sm text-white-600 hover:text-black"
+                  className="delete-text"
                   onClick={() => deleteTask(t.id)}>
                   Delete
                 </button>

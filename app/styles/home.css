@@ -123,6 +123,22 @@ h2 {
     gap: 10px;
 }
 
+.delete-text {
+    color: red;
+    cursor: pointer;
+    font-size: 13px;
+    transition: all .2s ease;
+}
+
+.delete-text:hover {
+    transform: scale(1.05);
+}
+
+.delete-text:active {
+    color: white;
+    transform: scale(.98);
+}
+
 
 
 
